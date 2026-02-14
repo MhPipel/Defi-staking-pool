@@ -6,7 +6,7 @@ This project demonstrates best practices in Solidity development, smart contract
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This staking pool allows users to stake ERC20 tokens and earn rewards over time.  
 Rewards are distributed proportionally based on the user's stake and staking duration.
@@ -15,7 +15,7 @@ The contract is built using OpenZeppelin libraries and follows modern Solidity s
 
 ---
 
-## ✨ Features
+##  Features
 
 - ERC20 token staking
 - Time-based reward distribution
@@ -26,7 +26,7 @@ The contract is built using OpenZeppelin libraries and follows modern Solidity s
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 - **StakingPool.sol**
   - Core staking logic
@@ -38,7 +38,7 @@ The contract is built using OpenZeppelin libraries and follows modern Solidity s
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - Uses OpenZeppelin `ReentrancyGuard` to prevent reentrancy attacks
 - Uses OpenZeppelin `Ownable` for access control
@@ -47,7 +47,7 @@ The contract is built using OpenZeppelin libraries and follows modern Solidity s
 
 ---
 
-## 🚀 Deployment (Remix IDE)
+##  Deployment (Remix IDE)
 
 1. Open Remix IDE
 2. Create a new workspace
@@ -60,7 +60,7 @@ The contract is built using OpenZeppelin libraries and follows modern Solidity s
 
 ---
 
-## 🧪 Example Workflow
+##  Example Workflow
 
 ```text
 approve(stakingPoolAddress, amount)
